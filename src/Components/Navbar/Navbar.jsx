@@ -16,11 +16,11 @@ const Navbar = () => {
                     <span>My List</span>                   
                 </div>
                 <div className="right">
-                    <Search />
+                    <Search className='icon'/>
                     <span>KID</span>
-                    <Notifications />
+                    <Notifications className='icon'/>
                     <img src="https://images.pexels.com/photos/6899260/pexels-photo-6899260.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" />
-                    <ArrowDropDown />
+                    <ArrowDropDown className='icon'/>
                 </div>
             </div>
         </div>
