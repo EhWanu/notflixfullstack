@@ -1,3 +1,4 @@
+import { ArrowDropDownCircle, Notifications, Search } from '@material-ui/icons'
 import './navbar.scss'
 
 const Navbar = () => {
@@ -14,7 +15,13 @@ const Navbar = () => {
                     <span>New and Popular</span>                   
                     <span>My List</span>                   
                 </div>
-                <div className="right"></div>
+                <div className="right">
+                    <Search />
+                    <span>KID</span>
+                    <Notifications />
+                    <img src="https://images.pexels.com/photos/6899260/pexels-photo-6899260.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" />
+                    <ArrowDropDownCircle/> 
+                </div>
             </div>
         </div>
     )
